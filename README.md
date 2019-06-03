@@ -1,11 +1,6 @@
 # privateNanoAOD
 config files for running private nanoAOD production on CRAB
 
-# Setting up the environment
-step 1: clone this repository:
+# Switch to the proper branch depending which year you want to process and follow the intructions there
 
-`git clone https://github.com/jandrejk/privateNanoAOD.git`
-
-step 2: execute the installation recipe:
-
-`sh installation_recipe.sh`
+-) [2018][https://github.com/jandrejk/privateNanoAOD/blob/2018/README.md]
