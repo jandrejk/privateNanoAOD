@@ -17,5 +17,4 @@ wget https://github.com/cms-tau-pog/RecoTauTag-TrainingFiles/raw/DeepTau2017v2/D
 scram b -j4
 
 cp -r ../../run .
-cd run
 echo "setup completed"
