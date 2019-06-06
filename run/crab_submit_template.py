@@ -11,7 +11,7 @@ config.General.workArea = 'crab_{0}'.format( prodLabel )
 
 # JobTyp section - contains all the parameters of job related configurables
 config.JobType.pluginName = 'Analysis'
-config.JobType.maxMemoryMB = 2000
+config.JobType.maxMemoryMB = 2500
 # config.JobType.maxJobRuntimeMin = 1440
 config.JobType.psetName = "HIG-RunIISummer16MiniAODv3_${datatier}_cfg.py"
 # Data section - contains all paramters related to the data to be analyzed
