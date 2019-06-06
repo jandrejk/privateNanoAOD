@@ -40,8 +40,10 @@ def write_templates():
 	for datatier, tag, sample in samples:
 		json = "#"
 		if datatier == "data" :
-			print tag
-			print "data is not yet included!"
+			tmp = templ.substitute(tag = tag,
+							   sample = sample,
+							   datatier = datatier,
+							   )
 		else :
 			tmp = templ.substitute(tag = tag,
 							   sample = sample,
