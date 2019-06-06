@@ -39,19 +39,9 @@ def write_templates():
 
 	for datatier, tag, sample in samples:
 		json = "#"
-		#if datatier == "data":
-		#	json = ""
 		if datatier == "data" :
 			print tag
-			if "Run2018D" in tag :
-				GT = "D"
-			else :
-				GT = "ABC"
-
-			tmp = templ.substitute(tag = tag,
-							   sample = sample,
-							   datatier = datatier+GT,
-							   )
+			print "data is not yet included!"
 		else :
 			tmp = templ.substitute(tag = tag,
 							   sample = sample,
