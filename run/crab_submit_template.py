@@ -2,7 +2,7 @@ from CRABClient.UserUtilities import config
 config = config()
 
 tag = "${tag}"
-prodLabel = 'ReRunNano2016_190606'
+prodLabel = 'ReRunNano2016_190625'
 file_dataset = "${sample}"
 # General section - user specifies generic parameters
 config.General.requestName = tag
@@ -27,6 +27,6 @@ config.Data.ignoreLocality = False
 
 # Site section - where the output files will be transmitted to
 config.Site.storageSite = 'T2_AT_Vienna'
-config.Site.whitelist=['T2_FR_*','T2_DE*','T2_IT_Bari','T2_IT_Legnaro','T2_US_*','T1_RU_JINR','T2_AT*']
+# config.Site.whitelist=['T2_FR_*','T2_DE*','T2_IT_Bari','T2_IT_Legnaro','T2_US_*','T2_AT*']
 # config.Site.ignoreGlobalBlacklist = True
-# config.Site.blacklist = ['*_US_*']
+config.Site.blacklist = ['T1_RU_JINR']
