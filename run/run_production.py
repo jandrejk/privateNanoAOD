@@ -17,6 +17,8 @@ def read_sampels(path = "samples.json"):
 	        add = ""
 	        if "_ext" in sample:
 	              add = "ext"
+            if "_ext2" in sample:
+	        	  add = "ext2"
 	        if datatier == "mc":
 	        	tag = sample.split("/")[1]+add
 	        if datatier == "data":
