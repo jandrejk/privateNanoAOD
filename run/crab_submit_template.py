@@ -29,4 +29,4 @@ config.Data.ignoreLocality = False
 config.Site.storageSite = 'T2_AT_Vienna'
 # config.Site.whitelist=['T2_FR_*','T2_DE*','T2_IT_Bari','T2_IT_Legnaro','T2_US_*','T2_AT*']
 # config.Site.ignoreGlobalBlacklist = True
-config.Site.blacklist = ['T1_RU_JINR']
+config.Site.blacklist = ['T1_RU_JINR','T3_UK_*','T2_US_Purdue','T2_US_Caltech']
