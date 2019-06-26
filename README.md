@@ -1,4 +1,4 @@
-# Setting up the environment
+# Setting up the environment and submit jobs
 step 1: clone this repository:
 
 `git clone https://github.com/jandrejk/privateNanoAOD.git -b 2016`
@@ -20,3 +20,14 @@ step 3: submit on CRAB:
 `python run_production.py`
 
 The submit commands are printed in the terminal.
+
+# Resubmitting jobs
+use `python CRAB_job_manager.py --resub -rundir crab_ReRunNano2016_{datestamp}/`
+
+where datestamp needs to be replaced with the apropriate date stamp.
+
+With the `--dry` option just a print out of the resubmit commands is printed:
+
+`python CRAB_job_manager.py --resub -rundir crab_ReRunNano2016_{datestamp}/ --dry`
+
+Other optional arguments are available such as siteblacklist, maxjobruntime, maxmemory.
